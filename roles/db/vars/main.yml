@@ -1,2 +1,8 @@
 ---
 # vars file for db
+
+mysql_port: 3306
+dbname: tms
+dbuser: root
+dbpassword: root
+
