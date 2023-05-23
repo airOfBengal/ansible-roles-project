@@ -1,0 +1,12 @@
+---
+# vars file for backend
+
+java_apt_package: openjdk-11-jdk
+java_yum_package: java-11-openjdk
+
+#Maven vars
+maven_major: 3
+maven_version: 3.6.3
+maven_home_parent_directory: /opt
+maven_env_file: "/etc/profile.d/maven.sh"
+#

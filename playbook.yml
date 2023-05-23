@@ -1,0 +1,6 @@
+---
+- name: DB service
+  hosts: dbservers
+  become: yes
+  roles:
+    - db
